@@ -28,7 +28,7 @@
         &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                            &none &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
         &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &none           &kp LGUI &kp LCTRL &kp RALT  &kp RCTRL           &none &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &kp HOME &kp PG_UP                           &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2     &kp GRAVE &none &none &none                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp SPACE              &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
+        &mo 2     &kp GRAVE &none    &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp SPACE              &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
       >;
     };
     keypad {
@@ -46,7 +46,7 @@
         &trans &trans &trans &trans &trans &trans  &none                                           &none &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &none &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans &trans                      &trans &trans                     &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans               &kp SPACE &kp ENTER &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
+        &trans &trans &trans &trans &kp C_PP               &kp SPACE &kp ENTER &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
       >;
     };
     mod {
